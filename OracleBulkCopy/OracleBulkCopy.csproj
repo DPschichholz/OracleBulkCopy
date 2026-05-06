@@ -11,7 +11,7 @@
 		<Description>Bulk Copy class for use with Oracle Managed Data Access Client</Description>
 		<Copyright>Copyright 2026</Copyright>
 		<PackageProjectUrl>https://github.com/TylerHaigh/OracleBulkCopy</PackageProjectUrl>
-		<PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/DPschichholz/OracleBulkCopy</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>Oracle Bulk Copy</PackageTags>
