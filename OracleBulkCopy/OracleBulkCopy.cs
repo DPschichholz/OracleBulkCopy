@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Oracle.ManagedDataAccess.Client;
 
-namespace OracleBulkCopy.Standard;
+namespace OracleBulkCopy;
 
 public sealed class OracleBulkCopy : IDisposable, IAsyncDisposable
 {
