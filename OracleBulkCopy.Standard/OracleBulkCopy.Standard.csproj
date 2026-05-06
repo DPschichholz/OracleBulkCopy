@@ -1,11 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<LangVersion>default</LangVersion>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
-  <ItemGroup>
-    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.12.0-beta2" />
-    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-  </ItemGroup>
+		<Version>1.0.1</Version>
+		<Title>Oracle Bulk Copy</Title>
+		<Authors>Tyler Haigh</Authors>
+		<Description>Bulk Copy class for use with Oracle Managed Data Access Client</Description>
+		<Copyright>Copyright 2026</Copyright>
+		<PackageProjectUrl>https://github.com/TylerHaigh/OracleBulkCopy</PackageProjectUrl>
+		<PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+		<RepositoryUrl>https://github.com/DPschichholz/OracleBulkCopy</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Oracle Bulk Copy</PackageTags>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<TargetFramework>net10.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.*"/>
+	</ItemGroup>
 </Project>
